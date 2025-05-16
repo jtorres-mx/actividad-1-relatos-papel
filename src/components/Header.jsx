@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { CartContext } from "../context/Context";
+import { CartContext } from "../Context/Context.jsx";
 import { Link } from "react-router-dom";
 import "./Header.css";
 

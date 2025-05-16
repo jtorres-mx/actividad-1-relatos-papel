@@ -1,7 +1,7 @@
 // src/components/carrito-de-compra.jsx
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { CartContext } from "../context/Context";
+import { CartContext } from "../Context/Context.jsx";
 import "./Checkout.css";
 
 export const CarritoCompra = () => {

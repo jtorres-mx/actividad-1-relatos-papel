@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../data";
-import { CartContext } from "../context/Context";
+import { CartContext } from "../Context/Context.jsx";
 import "./BookDetail.css";
 
 export const BookDetail = () => {  // Nota: usamos 'export const'
