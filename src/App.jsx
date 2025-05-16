@@ -1,6 +1,6 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { CartProvider } from "./context/Context";
+import { CartProvider } from "./Context/Context.jsx";
 import { Splash } from "./components/Splash";
 import { Home } from "./components/Home.jsx";
 import { CarritoCompra } from "./components/carrito-de-compra";
