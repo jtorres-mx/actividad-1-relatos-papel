@@ -1,0 +1,13 @@
+.book-detail__container {
+    width: 100%;
+    padding: 16px;
+};
+
+.book-detail__img {
+    max-height: 100px;
+    display: inline-block;
+}
+
+.book-detail__info {
+    display: inline-block;
+}

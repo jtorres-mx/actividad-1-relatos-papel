@@ -1,0 +1,175 @@
+header{
+    display: flex;
+    padding: 15px 15px 0px 15px;
+    justify-content: space-between;
+    background-color: #01257D;
+}
+
+.header__title {
+
+    color: white;
+}
+
+/* Carrito de compra */
+
+.cart__container-icon{
+    position: relative;
+}
+
+.cart__count-books {
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color:#00FFFF;
+    color: black;
+    width: 21px;
+    height: 21px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 13px;
+}
+
+.cart__container-books{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+
+}
+
+.cart__item-book{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.cart__info-book{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.cart__book-name {
+    font-size: 16px;
+}
+
+.cart__book-price {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.cart__book-quantity {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cart__delete_button{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+}
+
+.cart__delete_button:hover{
+    color: red;
+}
+/*
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+
+ */
+.cart__total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart__total h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cart__hidden{
+    display: none;
+}
+
+.cart__empty{
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*
+.hidden{
+    display: none;
+} */
+
+.cart__clear-button {
+    boder: none;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 15px 0px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all .3s ease;
+    color: #00FFFF;
+}
+
+.cart__go-cart-button {
+    boder: none;
+    text-decoration: none;
+    background: #00FFFF;
+    color: white;
+    padding: 15px 0px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all .3s ease;
+    color: black;
+}
+
+.cart__clear-button:hover{
+    transform: scale(1.02);
+}
+
+.cart__go-cart-button:hover {
+    transform: scale(1.02);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
