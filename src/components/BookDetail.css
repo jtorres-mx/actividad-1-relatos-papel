@@ -1,13 +1,29 @@
 .book-detail__container {
-    width: 100%;
-    padding: 16px;
-};
+padding: 16px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 
-.book-detail__img {
-    max-height: 100px;
-    display: inline-block;
 }
 
+.book-detail__img {
+    display: inline;
+    max-width: 150px;
+}
+
+
 .book-detail__info {
-    display: inline-block;
+    display: inline;
+    width: 600px;
+    padding-left: 50px;
+}
+
+.book-detail__container button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: #00FFFF;
+    padding: 15px 10px;
+    margin-top: 30px;
+    cursor: pointer;
 }

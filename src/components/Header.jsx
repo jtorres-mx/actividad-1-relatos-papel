@@ -26,19 +26,26 @@ export const Header = () => {
 
             <div className="cart__container-icon">
                 <div className="cart__container-cart-icon" onClick={() => setActive(!active)}>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="currentColor"
-                        className="icon-cart"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
-                        />
+                    <svg width="50px" height="50px" viewBox="3 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>Shopping-cart</title>
+                        <g id="🖥-Landing" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                            <g id="Artboard" transform="translate(-74.000000, -239.000000)">
+                                <g id="Shopping-cart" transform="translate(74.000000, 239.000000)">
+                                    <rect id="Rectangle" x="0" y="0" width="24" height="24">
+
+                                    </rect>
+                                    <path d="M2.5,3.5 L4.57364,3.5 C4.81929,3.5 5.02855,3.67844 5.06736,3.921 L6.73058,14.3158 C6.88582,15.286 7.72287,15.9998 8.70546,15.9998 L17.3957,15.9998 C18.3331,15.9998 19.1447,15.3487 19.3481,14.4337 L20.7296,8.21674 C20.8684,7.59222 20.3932,6.9998 19.7534,6.9998 L5.83997,6.9998" id="Path" stroke="#fff" strokeWidth="2" strokeLinecap="round">
+
+                                    </path>
+                                    <circle id="Oval" stroke="#fff" strokeWidth="2" strokeLinecap="round" cx="9.5" cy="21" r="1">
+
+                                    </circle>
+                                    <circle id="Oval" stroke="#fff" strokeWidth="2" strokeLinecap="round" cx="16.5" cy="21" r="1">
+
+                                    </circle>
+                                </g>
+                            </g>
+                        </g>
                     </svg>
                     <div className="cart__count-books">
                         <span id="contador-productos">{countProducts}</span>
@@ -75,7 +82,7 @@ export const Header = () => {
 
                             <Link to="/carrito">
                                 <button className="cart__go-cart-button">
-                                    Ir al carrito de compra
+                                    Ir a Checkout
                                 </button>
                             </Link>
                         </>

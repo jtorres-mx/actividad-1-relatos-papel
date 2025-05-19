@@ -12,10 +12,7 @@ function App() {
         <CartProvider>
             <Router>
                 <Routes>
-                    {/* Splash se muestra sin header ni footer */}
                     <Route path="/" element={<Splash />} />
-
-                    {/* Todas las demás rutas se anidan en Layout */}
                     <Route element={<Layout />}>
                         <Route path="/home" element={<Home />} />
                         <Route path="/carrito" element={<CarritoCompra />} />

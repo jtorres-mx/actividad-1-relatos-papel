@@ -10,13 +10,10 @@ export const BookDetail = () => {  // Nota: usamos 'export const'
     const book = data.find(item => item.id === parseInt(id));
     const { onAddProduct } = useContext(CartContext);
 
-    if (!book) {
-        return <p>Libro no encontrado.</p>;
-    }
     console.log(book.img);
     return (
         <div className="book-detail__container">
-            <img className= "book-detail__img" src={`/book-images/${book.img}`} alt={book.nombreLibro} />
+            <div className="book-detail__img"> <img src={`/book-images/${book.img}`} alt={book.nombreLibro} /></div>
             <div className="book-detail__info">
             <h2>{book.nombreLibro}</h2>
             <p><strong>Autor:</strong> {book.autor}</p>

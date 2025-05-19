@@ -1,0 +1,22 @@
+.splash__cuenta-regresiva {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.splash-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.splash__button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: #00FFFF;
+    padding: 15px 10px;
+    cursor: pointer;
+    width: 100px;
+}
