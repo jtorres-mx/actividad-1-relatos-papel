@@ -9,13 +9,14 @@ padding: 16px;
 .book-detail__img {
     display: inline;
     max-width: 150px;
+    margin-right: 150px;
 }
 
 
 .book-detail__info {
     display: inline;
     width: 600px;
-    padding-left: 50px;
+   margin-left: 50px;
 }
 
 .book-detail__container button{

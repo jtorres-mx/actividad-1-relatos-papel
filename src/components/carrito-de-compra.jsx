@@ -16,7 +16,7 @@ export const CarritoCompra = () => {
 
     return (
         <div className="checkout">
-            <h2>Carrito de Compras</h2>
+            <h2>Checkout</h2>
             {allProducts.length > 0 ? (
                 <>
                     <div className="checkout__books">
